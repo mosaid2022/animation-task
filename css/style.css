@@ -1,0 +1,229 @@
+body{
+    background-color: gainsboro;
+    overflow: auto;
+}
+span{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+/* ===================================================== */
+.div1{
+    width: 250;
+    height: 100;
+    position: absolute;
+    background-color: red;
+ animation-name: div1;
+ animation-duration: 3s;
+ animation-delay: 0;
+animation-fill-mode: forwards;
+animation-timing-function: linear;
+}
+@keyframes div1{
+    0%{
+        background-color: red;
+        left: 0;
+    }
+    50%{
+        background-color: yellow;
+        left: 500px;
+    }
+    100%{
+        background-color: green;
+        left: 1000px;
+    }
+}
+/* ===================================================== */
+
+.div2{
+    width: 250;
+    height: 100;
+    top: 140px;
+    position: absolute;
+    background-color: red;
+ animation-name: div2;
+ animation-duration: 3s;
+ animation-delay: 3s;
+ animation-fill-mode: both;
+ animation-timing-function: linear;
+}
+@keyframes div2{
+    0%{
+        background-color: red;
+        right: 0;
+    }
+    50%{
+        background-color: yellow;
+      right: 500px;
+    }
+    100%{
+        background-color: green;
+        right: 1000px;
+    }
+}
+/* ===================================================== */
+
+.div3{
+    width: 250;
+    height: 100;
+    top: 250px;
+    position: absolute;
+    background-color: red;
+ animation-name: div3;
+ animation-duration: 3s;
+ animation-delay: 6s;
+ animation-fill-mode: forwards;
+ animation-timing-function: linear;
+}
+@keyframes div3{
+    0%{
+        background-color: red;
+        left: 0;
+    }
+    50%{
+        background-color: yellow;
+    
+    }
+    100%{
+        background-color: green;
+        left: 1000px;
+    }
+}
+/* ====================================================== */
+
+.div4{
+    width: 250;
+    height: 100;
+    top: 400px;
+    position: absolute;
+    background-color: red;
+ animation-name: div4;
+ animation-duration: 3s;
+ animation-delay: 9s;
+ animation-fill-mode: both;
+ animation-timing-function: linear;
+}
+@keyframes div4{
+    0%{
+        background-color: red;
+        right: 0;
+    }
+    50%{
+        background-color: yellow;
+      right: 500px;
+    }
+    100%{
+        background-color: green;
+        right: 1000px;
+    }
+}
+/* ====================================================== */
+.div5{
+    width: 250;
+    height: 100;
+    top: 550px;
+    position: absolute;
+    background-color: red;
+ animation-name: div5;
+ animation-duration: 3s;
+ animation-delay: 12s;
+animation-fill-mode: forwards;
+animation-timing-function: linear;
+}
+@keyframes div5{
+    0%{
+        background-color: red;
+        left: 0;
+    }
+    50%{
+        background-color: yellow;
+        left: 500px;
+    }
+    100%{
+        background-color: green;
+        left: 1000px;
+    }
+}
+/*  =================================================== */
+.div6{
+    width: 250;
+    height: 100;
+    top: 690px;
+    position: absolute;
+    background-color: red;
+ animation-name: div6;
+ animation-duration: 3s;
+ animation-delay: 15s;
+ animation-fill-mode: both;
+ animation-timing-function: linear;
+
+}
+@keyframes div6{
+    0%{
+        background-color: red;
+        right: 0px;
+    }
+    50%{
+        background-color: yellow;
+      right: 500px;
+    }
+    100%{
+        background-color: green;
+        right: 1000px;
+    }
+}
+/* ===================================================== */
+.div7{
+    width: 250;
+    height: 100;
+    top: 830px;
+    position: absolute;
+    background-color: red;
+ animation-name: div7;
+ animation-duration: 3s;
+ animation-delay: 18s;
+animation-fill-mode: forwards;
+animation-timing-function: linear;
+}
+@keyframes div7{
+    0%{
+        background-color: red;
+        left: 0;
+    }
+    50%{
+        background-color: yellow;
+        left: 500px;
+    }
+    100%{
+        background-color: green;
+        left: 1000px;
+    }
+}
+/* ======================================================= */
+.div8{
+    width: 250;
+    height: 100;
+    top: 980px;
+    position: absolute;
+    background-color: red;
+ animation-name: div8;
+ animation-duration: 3s;
+ animation-delay: 21s;
+ animation-fill-mode: both;
+ animation-timing-function: linear;
+
+}
+@keyframes div8{
+    0%{
+        background-color: red;
+        right: 0px;
+    }
+    50%{
+        background-color: yellow;
+      right: 500px;
+    }
+    100%{
+        background-color: green;
+        right: 1000px;
+    }
+}
